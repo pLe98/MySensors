@@ -51,7 +51,7 @@
 /// I2C speed
 // 400kHz clock as default. Use extEEPROM type
 #ifndef I2CEEPROM_TWI_CLK
-#define I2CEEPROM_TWI_CLK twiClock400kHz
+#define I2CEEPROM_TWI_CLK twiClock800kHz
 #endif
 
 /// EEPROM page size
